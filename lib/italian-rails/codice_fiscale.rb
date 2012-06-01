@@ -76,7 +76,7 @@ module ItalianRails
             sum += ODD[str[i].chr]
           end
         end
-        ((sum % 26) + ?A).chr
+        ((sum % 26) + 65).chr
       end
 
       # It returns the codice fiscale parts. It raises +ArgumentError+ if the format is not valid.
